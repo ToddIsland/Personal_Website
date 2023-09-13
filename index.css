@@ -15,6 +15,7 @@ body {
 .container_1 {
     width: 1100px;
     margin: auto;
+    height: 100%;
 }
 
 .title_1 {
@@ -23,13 +24,20 @@ body {
     color: white;
     top: 160px;
     position: relative;
-    transition: 0.5s all cubic-bezier(0.23, 1, 0.32, 1);
+    animation-name: title_move;
+    animation-duration: 1.5s;
+    animation-delay: 0s;
+    animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+@keyframes title_move {
+    from {top: 50px; opacity: 0;}
+    to {top: 160px; opacity: 1;}
 }
 
 .name_1 {
     color: white;
     position: relative;
-    top: 220px;
     text-align: right;
     display: flex;
     justify-content: flex-end;
@@ -37,13 +45,25 @@ body {
 }
 
 .name_h1 {
+    position: absolute;
+    text-align: right;
+    top: 220px;
     background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
     font-size: 100px;
     background-size: cover;
     -moz-background-clip: text;
 	-webkit-background-clip: text;
     color: transparent;
-    width: 450px;
+    animation-name: name_move;
+    animation-duration: 2.1s;
+    animation-delay: 0.5s;
+    animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
+    animation-fill-mode: both;
+}
+
+@keyframes name_move {
+    from {top: 290px; opacity: 0;}
+    to {top: 220px; opacity: 1;}
 }
 
 .page_2 {
