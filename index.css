@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Lucida Sans Typewriter", "Lucida Console", Monaco,
+        "Bitstream Vera Sans Mono", monospace;
+}
+
+.page_1 {
+    background-image: url("./assets/page_1_bk.jpg");
+    background-size: cover;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.container_1 {
+    width: 1100px;
+    margin: auto;
+}
+
+.title_1 {
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: white;
+    top: 160px;
+    position: relative;
+    transition: 0.5s all cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.name_1 {
+    color: white;
+    position: relative;
+    top: 220px;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    font-family: Arial, sans-serif;
+}
+
+.name_h1 {
+    background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+    font-size: 100px;
+    background-size: cover;
+    -moz-background-clip: text;
+	-webkit-background-clip: text;
+    color: transparent;
+    width: 450px;
+}
+
+.page_2 {
+    height: 100vh;
+}
