@@ -5,7 +5,7 @@ var Navigation = (function ($) {
         // set navIndex
         navIndex = 0;
 
-        // about waypoint
+        // page 2 waypoint
         $("#page_2").waypoint(
             function (direction) {
                 $(".page_2").toggleClass("about-active");
@@ -15,20 +15,9 @@ var Navigation = (function ($) {
             { offset: "50px" }
         );
 
-        // hydrocode waypoint
-        $("#hydrocode").waypoint(
+        // page 3 waypoint
+        $("#page_3").waypoint(
             function (direction) {
-                $(".hydrocode").toggleClass("hydrocode-active");
-
-                setNav(direction);
-            },
-            { offset: "50px" }
-        );
-
-        // interests waypoint
-        $("#interests").waypoint(
-            function (direction) {
-                $(".interests").toggleClass("interests-active");
                 $(".navigation").toggleClass("navigation-dark");
 
                 setNav(direction);
