@@ -318,6 +318,12 @@ h3 {
     color: white;
 }
 
+@media only screen and ((max-width: 767px) or ((hover: none) and (pointer: coarse))) {
+    .container_2 .text p {
+        width: 100%;
+    }
+}
+
 @keyframes text_move {
     from {
         margin-top: 350px;
