@@ -40,7 +40,7 @@ h3 {
     /* text-align: center; */
 }
 
-@media (max-width: 767px) {
+@media only screen and ((max-width: 767px) or ((hover: none) and (pointer: coarse))) {
     h1,
     h2,
     h3,
@@ -143,7 +143,7 @@ h3 {
         width: 700px;
     }
 }
-@media (max-width: 767px) {
+@media only screen and ((max-width: 767px) or ((hover: none) and (pointer: coarse))) {
     .container_1 {
         width: auto;
         margin: 0px 30px;
@@ -166,7 +166,7 @@ h3 {
     color: black;
 }
 
-@media (max-width: 767px) {
+@media only screen and ((max-width: 767px) or ((hover: none) and (pointer: coarse))) {
     .page_number {
         top: 40px;
         right: 15px;
@@ -197,7 +197,7 @@ h3 {
     animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
 }
 
-@media (max-width: 767px) {
+@media only screen and ((max-width: 767px) or ((hover: none) and (pointer: coarse))) {
     .title_1 {
         top: 40px;
         animation-name: title_move_top;
@@ -256,7 +256,7 @@ h3 {
     animation-fill-mode: both;
 }
 
-@media (max-width: 767px) {
+@media only screen and ((max-width: 767px) or ((hover: none) and (pointer: coarse))) {
     .name_h1 {
         float: none;
         animation-name: name_move_bottom;
@@ -352,7 +352,8 @@ h3 {
     position: relative;
     text-align: center;
     display: inline-block;
-    font-family: "brandon-grotesque", brandon, martel-sans, helvetica, sans-serif;
+    font-family: "brandon-grotesque", brandon, martel-sans, helvetica,
+        sans-serif;
 }
 
 .container_3 .title:after,
@@ -431,7 +432,7 @@ h3 {
     text-align: left;
 }
 
-@media (max-width: 767px) {
+@media only screen and ((max-width: 767px) or ((hover: none) and (pointer: coarse))) {
     .container_3 {
         width: auto;
         margin: 0px 30px;
@@ -464,7 +465,8 @@ h3 {
     font-size: 24px;
     font-weight: bold;
     color: white;
-    font-family: "brandon-grotesque", brandon, martel-sans, helvetica, sans-serif;
+    font-family: "brandon-grotesque", brandon, martel-sans, helvetica,
+        sans-serif;
 }
 
 .contact a {
@@ -476,7 +478,7 @@ svg {
     margin: 10px auto 0 auto;
 }
 
-@media (max-width: 767px) {
+@media only screen and ((max-width: 767px) or ((hover: none) and (pointer: coarse))) {
     .contact {
         flex-direction: column;
         gap: 20px;
