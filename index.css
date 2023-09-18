@@ -261,8 +261,9 @@ h3 {
         float: none;
         animation-name: name_move_bottom;
         animation-duration: 2.1s;
-        animation-delay: 0s;
+        animation-delay: 0.5s;
         animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
+        animation-fill-mode: both;
     }
 }
 
@@ -279,10 +280,12 @@ h3 {
 
 @keyframes name_move_bottom {
     from {
-        top: 200px;
+        top: 730px;
+        opacity: 0;
     }
     to {
         top: 670px;
+        opacity: 1;
     }
 }
 
