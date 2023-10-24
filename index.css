@@ -40,7 +40,7 @@ h3 {
     /* text-align: center; */
 }
 
-@media only screen and ((max-width: 767px) or ((hover: none) and (pointer: coarse))) {
+@media only screen and ((max-width: 767px) or (-webkit-max-device-pixel-ratio: 1)) {
     h1,
     h2,
     h3,
@@ -143,7 +143,7 @@ h3 {
         width: 700px;
     }
 }
-@media only screen and ((max-width: 767px) or ((hover: none) and (pointer: coarse))) {
+@media only screen and ((max-width: 767px) or (-webkit-max-device-pixel-ratio: 1)) {
     .container_1 {
         width: auto;
         margin: 0px 30px;
@@ -166,7 +166,7 @@ h3 {
     color: black;
 }
 
-@media only screen and ((max-width: 767px) or ((hover: none) and (pointer: coarse))) {
+@media only screen and ((max-width: 767px) or (-webkit-max-device-pixel-ratio: 1)) {
     .page_number {
         top: 40px;
         right: 15px;
@@ -197,7 +197,7 @@ h3 {
     animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
 }
 
-@media only screen and ((max-width: 767px) or ((hover: none) and (pointer: coarse))) {
+@media only screen and ((max-width: 767px) or (-webkit-max-device-pixel-ratio: 1)) {
     .title_1 {
         top: 40px;
         animation-name: title_move_top;
@@ -256,7 +256,7 @@ h3 {
     animation-fill-mode: both;
 }
 
-@media only screen and ((-webkit-min-device-pixel-ratio: 1) or
+@media only screen and ((-webkit-max-device-pixel-ratio: 1) or
 (max-width: 767px)) {
     .name_h1 {
         float: none;
@@ -322,7 +322,7 @@ h3 {
     color: white;
 }
 
-@media only screen and ((max-width: 767px) or (-webkit-min-device-pixel-ratio: 1)) {
+@media only screen and ((max-width: 767px) or (-webkit-max-device-pixel-ratio: 1)) {
     .container_2 .text p {
         width: 100%;
     }
@@ -442,7 +442,7 @@ h3 {
     text-align: left;
 }
 
-@media only screen and ((max-width: 767px) or (-webkit-min-device-pixel-ratio: 1)) {
+@media only screen and ((max-width: 767px) or (-webkit-max-device-pixel-ratio: 1)) {
     .container_3 {
         width: auto;
         margin: 0px 30px;
@@ -488,7 +488,7 @@ svg {
     margin: 10px auto 0 auto;
 }
 
-@media only screen and ((max-width: 767px) or (-webkit-min-device-pixel-ratio: 1)) {
+@media only screen and ((max-width: 767px) or (-webkit-max-device-pixel-ratio: 1)) {
     .contact {
         flex-direction: column;
         gap: 20px;
