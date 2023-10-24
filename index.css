@@ -256,7 +256,8 @@ h3 {
     animation-fill-mode: both;
 }
 
-@media only screen and ((max-width: 767px) or ((hover: none) and (pointer: coarse))) {
+@media only screen and ((-webkit-min-device-pixel-ratio: 1) or
+(max-width: 767px)) {
     .name_h1 {
         float: none;
         animation-name: name_move_bottom;
@@ -321,7 +322,7 @@ h3 {
     color: white;
 }
 
-@media only screen and ((max-width: 767px) or ((hover: none) and (pointer: coarse))) {
+@media only screen and ((max-width: 767px) or (-webkit-min-device-pixel-ratio: 1)) {
     .container_2 .text p {
         width: 100%;
     }
@@ -441,7 +442,7 @@ h3 {
     text-align: left;
 }
 
-@media only screen and ((max-width: 767px) or ((hover: none) and (pointer: coarse))) {
+@media only screen and ((max-width: 767px) or (-webkit-min-device-pixel-ratio: 1)) {
     .container_3 {
         width: auto;
         margin: 0px 30px;
@@ -487,7 +488,7 @@ svg {
     margin: 10px auto 0 auto;
 }
 
-@media only screen and ((max-width: 767px) or ((hover: none) and (pointer: coarse))) {
+@media only screen and ((max-width: 767px) or (-webkit-min-device-pixel-ratio: 1)) {
     .contact {
         flex-direction: column;
         gap: 20px;
