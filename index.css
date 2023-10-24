@@ -106,6 +106,15 @@ h3 {
     }
 }
 
+@-webkit-keyframes nav_move {
+    from {
+        right: 0px;
+    }
+    to {
+        right: 30px;
+    }
+}
+
 .page_1 {
     background-image: url("./assets/image/page_1_bk.jpg");
     background-position: top;
@@ -119,6 +128,15 @@ h3 {
 }
 
 @keyframes page_1_move {
+    from {
+        left: -50px;
+    }
+    to {
+        left: 0;
+    }
+}
+
+@-webkit-keyframes page_1_move {
     from {
         left: -50px;
     }
@@ -185,6 +203,15 @@ h3 {
     }
 }
 
+@-webkit-keyframes page_number_move {
+    from {
+        top: 160px;
+    }
+    to {
+        top: 40px;
+    }
+}
+
 .title_1 {
     font-size: 14px;
     letter-spacing: 2px;
@@ -219,6 +246,26 @@ h3 {
 }
 
 @keyframes title_move_top {
+    from {
+        top: 160px;
+    }
+    to {
+        top: 40px;
+    }
+}
+
+@-webkit-keyframes title_move {
+    from {
+        top: 50px;
+        opacity: 0;
+    }
+    to {
+        top: 160px;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes title_move_top {
     from {
         top: 160px;
     }
@@ -290,6 +337,28 @@ h3 {
     }
 }
 
+@-webkit-keyframes name_move {
+    from {
+        top: 300px;
+        opacity: 0;
+    }
+    to {
+        top: 200px;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes name_move_bottom {
+    from {
+        top: 730px;
+        opacity: 0;
+    }
+    to {
+        top: 670px;
+        opacity: 1;
+    }
+}
+
 .page_2 {
     background-image: url("./assets/image/page_2_bk.jpg");
     background-size: cover;
@@ -329,6 +398,17 @@ h3 {
 }
 
 @keyframes text_move {
+    from {
+        margin-top: 350px;
+        opacity: 0;
+    }
+    to {
+        top: 235px;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes text_move {
     from {
         margin-top: 350px;
         opacity: 0;
